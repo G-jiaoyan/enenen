@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@android:id/tabcontent"
+
+    tools:context=".MainActivity">
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/tab1"-->
+        <!--&gt;-->
+        <!--<ImageView-->
+            <!--android:id="@+id/tab01"-->
+            <!--android:src="@mipmap/a"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/tab2"-->
+        <!--&gt;-->
+        <!--<ImageView-->
+            <!--android:id="@+id/tab02"-->
+            <!--android:src="@mipmap/b"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/tab3"-->
+        <!--&gt;-->
+        <!--<ImageView-->
+            <!--android:id="@+id/tab03"-->
+            <!--android:src="@mipmap/c"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+    <!--</LinearLayout>-->
+</FrameLayout>
