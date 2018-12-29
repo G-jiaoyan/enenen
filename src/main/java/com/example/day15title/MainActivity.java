@@ -19,9 +19,9 @@ public class MainActivity extends TabActivity {
         //获取视图
         LayoutInflater.from(this).inflate(R.layout.activity_main, tabHost.getTabContentView(), true);
         //通过布局的tab1 newTabSpec                     设置标题              设置图片
-        tabHost.addTab(tabHost.newTabSpec("tab1").setIndicator("美照1").setContent(R.id.tab01));
-        tabHost.addTab(tabHost.newTabSpec("tab2").setIndicator("美照2").setContent(R.id.tab02));
-        tabHost.addTab(tabHost.newTabSpec("tab3").setIndicator("美照3").setContent(R.id.tab03));
+        tabHost.addTab(tabHost.newTabSpec("tab1").setIndicator("刘昊然").setContent(R.id.tab01));
+        tabHost.addTab(tabHost.newTabSpec("tab2").setIndicator("我喜欢刘昊然").setContent(R.id.tab02));
+        tabHost.addTab(tabHost.newTabSpec("tab3").setIndicator("晓娜喜欢易烊千玺").setContent(R.id.tab03));
 
 //        tabHost.setOnTabChangedListener(new TabHost.OnTabChangeListener() {
 //            @Override
